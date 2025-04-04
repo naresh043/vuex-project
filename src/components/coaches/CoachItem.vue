@@ -2,7 +2,7 @@
   <div class="coach-card-container">
     <div class="coach-card">
       <div class="coach-avatar">
-        <div class="avatar-placeholder">{{ firstName.charAt(0) }}{{ lastName.charAt(0) }}</div>
+        <div class="avatar-placeholder">{{ firstName}}{{ lastName}}</div>
       </div>
       <div class="coach-content">
         <div class="coach-header">
@@ -34,7 +34,7 @@
             :to="coachDetailsLink" 
             class="action-btn details-btn"
           >
-            <span class="btn-icon">👁️</span> View Profile
+            <span class="btn-icon"></span> View Profile
           </base-button>
         </div>
       </div>
